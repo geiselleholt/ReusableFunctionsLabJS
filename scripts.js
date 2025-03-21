@@ -114,4 +114,14 @@ let sumUsingRedcue = newGivenData.reduce(function (acc, obj) { return acc + obj.
 console.log(sumUsingRedcue)
 
 // Then use the result to calculate the average age.
-console.log(sumUsingRedcue/newGivenData.length)
+console.log(sumUsingRedcue / newGivenData.length)
+
+
+//*** PART 3 ***/
+console.log('*** PART 3 ***')
+// For this section, develop functions that accomplish the following:
+// Take an object and increment its age field.
+
+// Take an object, make a copy, and increment the age field of the copy. Return the copy.
+
+// For each of the functions, if the object does not yet contain an age field, create one and set it to 0. Also, add (or modify, as appropriate) an updated_at field that stores a Date object with the current time.
